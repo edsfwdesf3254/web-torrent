@@ -54,7 +54,7 @@ app.get('/watch/:torrent/:file_name', function(req, res) {
 
 setTimeout(function() {
     res.redirect('/torrent/' + file_name);
-}, 6000); // 5000 milliseconds = 5 seconds
+}, 10000); // 5000 milliseconds = 5 seconds
 
 
 
